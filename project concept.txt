@@ -1,0 +1,31 @@
+A site crawler, given the link to a particular website, visits EVERY link on that website to fetch all the info.
+
+Your task is:
+
+User gives input: URL of a website (say http://example.com)
+
+Output: Print out all the URLs given on that web page.
+
+If you open example.com right now (its an actual site), you will see there are a total of 1 link(s) on the site ("more information"). so your output will be:
+
+http://www.iana.org/domains/example
+
+This is the URL that the link on the site leads to.
+
+you need to test your program for only small sites with few links, not flipkart / yahoo / google search results etc.
+
+How to go about?
+
+The main thing you need to know is how to programmatically make a GET request and fetch a web page. Search for "C++ network programming". 
+You need to have knowledge of sockets, how to create TCP sockets, how to make GET requests in C++. 
+Its easier to make in Linux, so I recommend you program this in Linux.
+
+Once you have these links, store them as a Key Value set in MySQL, i.e., Key = main Website URL, Value = An array of all the URLs in found on that web page.
+
+NOTE: 
+If user gives input www.hello.com,
+you need only print the urls on the home page i.e., the main page (the page that opens whn you type www.hello.com, nothing more)
+
+For knowing how to connect MySQL to CPP, visit https://github.com/duaraghav8/MySQL-CPP-Integration
+
+Let me know as you get doubts (trust me, you're going to have plenty of them).

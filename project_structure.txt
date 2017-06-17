@@ -1,0 +1,22 @@
+yrr samjaha aur socha hai lekin theorytically dont know how to implement it in linux or in visual studio..
+
+
+we can broadly divide our project in 4 phases..
+
+1..Knowing the system on which it is implemented ...
+2..How to connect online to a website(Using httpget Request)...(This I know how to do in Android  ...in Android we have libraries in java like httpClient and JSONparcing for parse the data)
+          -for doing same thing using libCurl library (I having problem in attaching it on project in visual studio ..
+          in linux I dont know how to do as it is asking for password for any package to install using console and dont extract it if i donwnload it directly form internet)
+	 - giving the name of our anchor url came in this step
+	- Socket creation in server and client 
+		- I think we will use internet domain and stream socket but for linux I dont know if we have to use unix domain and datagram socket
+3..After we are connected to our site its time for our main algorithm to retrieve the links form our site..
+		-A site contain lots of links to other source and to itself also we have to remove such self links
+4..After finding such links we need to store them ...I dont know if we need to use MySql for this we can use vector for this as we are working with small website...But to make our project robust Its good to use MySQL
+		- for that we have to know how to connect to MySql..we have done same thing in php..we need to connect to server(i dont know what is server in this case as we use localhost and xamp in php) for doing the same thing
+		- you have told how linux se connect kaise karna hai. 
+
+So ? Am i on the right track ?
+
+
+
